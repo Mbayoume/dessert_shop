@@ -1,0 +1,48 @@
+# ==============================
+# Project Files & Directories
+# ==============================
+/dist/          # Webpack output
+/node_modules/  # NPM dependencies
+/.cache/        # Build cache (Webpack, Babel)
+/.vscode/       # VS Code settings (optional)
+
+# ==============================
+# System & IDE Files
+# ==============================
+.DS_Store       # macOS
+Thumbs.db       # Windows
+*.log           # Log files
+.idea/          # JetBrains IDE
+
+# ==============================
+# Dependency Files
+# ==============================
+package-lock.json # (Use yarn.lock if using Yarn)
+yarn.lock
+pnpm-lock.yaml
+
+# ==============================
+# Environment Variables
+# ==============================
+.env            # Local environment
+.env.local      # Overrides
+.env*.local     # Other env files
+
+# ==============================
+# Build & Debug Files
+# ==============================
+*.tmp           # Temporary files
+*.bak           # Backup files
+debug/          # Debug output
+coverage/       # Test coverage
+
+# ==============================
+# OS-Specific Files
+# ==============================
+# Windows
+ehthumbs.db
+Desktop.ini
+
+# Linux/Mac
+*.swp
+*.swo
