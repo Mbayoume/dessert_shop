@@ -1,0 +1,7 @@
+/// building the structure
+
+- in this project i'v followed building the app with orginsed structure to make proffessiona and modern 
+
+
+=== first of all i've installed the initila node modules then i've setup the main configuration in the
+webpack.config.js file, this approach will help me 
