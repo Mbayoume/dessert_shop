@@ -5,8 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="src/css/main.css">
   
-  <title>Frontend Mentor | Product list with cart</title>
+  <title> Mentor | Product list with cart </title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -16,59 +17,53 @@
 </head>
 <body>
 
-  Desserts
+  
 
-  Waffle with Berries
-  Waffle
-  6.50
-  Add to Cart
+  <!-- cerate the cart continer (this is the whole project container ) -->
 
-  Vanilla Bean Crème Brûlée
-  Crème Brûlée
-  7.00
-  Add to Cart
+  <main>
 
-  Macaron Mix of Five
-  Macaron
-  8.00
-  Add to Cart
+    <!-- catalog product list  -->
 
-  Classic Tiramisu
-  Tiramisu
-  5.50
-  Add to Cart
 
-  Pistachio Baklava
-  Baklava
-  4.00
-  Add to Cart
+    <section class="catalog">
+      <ul class="catalog__product__list">
+        <li class="catalog__product__list__item">
+          <img src="./assets/images/image-baklava-desktop.jpg" alt="baklava">
 
-  Lemon Meringue Pie
-  Pie
-  5.00
-  Add to Cart
+        </li>
+ 
+      </ul>
+    </section>
 
-  Red Velvet Cake
-  Cake
-  4.50
-  Add to Cart
 
-  Salted Caramel Brownie
-  Brownie
-  4.50
-  Add to Cart
+<!--cart section  -->
 
-  Vanilla Panna Cotta
-  Panna Cotta
-  6.50
-  Add to Cart
 
-  Your Cart (<!-- Quantity -->)
-  Your added items will appear here
+<section class="cart">
+  <div class="cart__container__empty">
+    <h3>
+      your cart <span class="cart__items__count">(0)</span>
 
-  <div class="attribution">
+    </h3>
+
+    <img src="./assets/images/illustration-empty-cart.svg"
+  </div>
+</section>
+
+
+
+
+
+  </main>
+
+
+
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
+
+  <SCRIpt src="src/js/main.js"></SCRIpt>
 </body>
 </html>
